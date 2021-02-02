@@ -1,3 +1,4 @@
 baseURL = "https://highfive.js.org/"
 languageCode = "en-us"
 title = "React High-Five"
+theme = "cayman"
