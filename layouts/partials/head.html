@@ -18,9 +18,14 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+	<link
+		rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"
+		integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q="
+		crossorigin="anonymous"
+	/>
 	{{ partial "katex.html" . }}
 	<title>{{ .Title }} | {{ $.Site.Title }}</title>
-
 	<!-- Matomo -->
 	<script type="text/javascript">
 		var _paq = (window._paq = window._paq || []);
