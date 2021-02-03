@@ -1,4 +1,24 @@
-baseURL = "https://highfive.js.org/"
+baseURL = "/"
 languageCode = "en-us"
 title = "React High-Five"
 theme = "cayman"
+
+
+# Syntax highlighting
+pygmentsCodefences = true
+pygmentsStyle = "pygments"
+
+[params]
+project_name = "react-highfive"
+project_tagline = "🏫 Identify email addresses or domains names that belong to colleges or universities. Help automate the process of approving or rejecting academic discounts."
+footer = "© [Marvin Schopf](https://www.marvinschopf.com)"
+
+[menu]
+[[menu.nav]]
+name = "View on GitHub"
+url = "https://github.com/marvinschopf/react-highfive"
+weight = 1
+[[menu.nav]]
+name = "View on NPM"
+url = "https://www.npmjs.com/package/react-highfive"
+weight = 2
