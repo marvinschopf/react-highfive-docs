@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "React High-Five"
 theme = "cayman"
 
+disableKinds = ["taxonomy","taxonomyTerm"]
+
 
 # Syntax highlighting
 pygmentsCodefences = true
