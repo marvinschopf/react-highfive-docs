@@ -1,3 +1,6 @@
+---
+title: "Home"
+---
 # React High Five 👋
 `react-highfive` is a simple React ⚛️ component that can be used to integrate an animated high-five counter into a website.  
 
